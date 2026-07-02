@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAÍZ | Cursos de restauración de muebles</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">RAÍZ</div>
+
+  <nav class="nav" id="nav">
+    <a href="#experiencia">Experiencia</a>
+    <a href="#aprendizaje">Proyectos</a>
+    <a href="#colorlab">Color Lab</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <a href="#cursos" class="btn-header">Ver cursos</a>
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+
+  <div class="hero-text">
+    <p class="eyebrow">Cursos de restauración de muebles</p>
+
+    <h1>
+      <span class="hero-blue">
+        Aprendé<br>
+        a restaurar
+      </span>
+      <br>
+      <span class="hero-black">
+        con diseño
+      </span>
+    </h1>
+
+    <p class="hero-description">
+      Cursos presenciales para transformar muebles antiguos en piezas únicas, modernas y llenas de identidad.
+    </p>
+
+    <a href="#experiencia" class="btn-main hero-btn-desktop">Ver experiencia</a>
+  </div>
+
+  <div class="hero-image">
+    <div class="compare-slider">
+      <img src="./images/mueble-restaurado.png" alt="Mueble restaurado" class="compare-img compare-new">
+      <img src="./images/mueble-viejo.png" alt="Mueble viejo" class="compare-img compare-old" id="compareOld">
+
+      <input type="range" min="0" max="100" value="50" class="compare-range" id="compareRange">
+
+      <div class="compare-line" id="compareLine">
+        <span>↔</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#experiencia" class="btn-main hero-btn-mobile">Ver experiencia</a>
+
+</section>
+
+  <!-- SOBRE NOSOTROS -->
+<section class="manifesto" id="experiencia">
+
+  <p class="eyebrow">Sobre nosotros</p>
+
+  <h2>
+    <span class="manifesto-desktop">
+      No enseñamos a arreglar muebles.<br>
+      Enseñamos a transformarlos.
+    </span>
+
+    <span class="manifesto-mobile">
+      Restaurar<br>
+      es diseñar.
+    </span>
+  </h2>
+
+  <p>
+    Combinamos técnicas tradicionales de restauración con una mirada contemporánea sobre el color, la composición y el diseño.
+  </p>
+
+</section>
+
+<!-- PROYECTOS DESTACADOS -->
+
+<section class="projects" id="aprendizaje">
+
+    <div class="projects-header">
+
+        <div>
+            <p class="eyebrow">Proyectos destacados</p>
+
+            <h2>
+                Piezas que<br>
+                cobran nueva vida
+            </h2>
+        </div>
+
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- PROYECTO 1 -->
+
+        <article class="project-card">
+
+            <div class="project-flip">
+
+                <div class="project-front">
+                    <img src="images/SILLON THONET.jpeg" alt="Sillón Thonet">
+                </div>
+
+                <div class="project-back">
+
+                    <div class="project-back-content">
+
+                        <span class="project-number">
+                            PROYECTO 01
+                        </span>
+
+                        <h4>APRENDÉS</h4>
+
+                        <ul>
+                            <li>Reparación estructural</li>
+                            <li>Tapizado completo</li>
+                            <li>Combinación de color</li>
+                            <li>Protección final</li>
+                        </ul>
+
+                        <p>
+                            Aplicado en el Curso Integral.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <h3>SILLÓN THONET</h3>
+            <span>2026</span>
+
+        </article>
+
+        <!-- PROYECTO 2 -->
+
+        <article class="project-card">
+
+            <div class="project-flip">
+
+                <div class="project-front">
+                    <img src="images/PANTON CHAIR.jpg" alt="Panton Chair">
+                </div>
+
+                <div class="project-back">
+
+                    <div class="project-back-content">
+
+                        <span class="project-number">
+                            PROYECTO 02
+                        </span>
+
+                        <h4>APRENDÉS</h4>
+
+                        <ul>
+                            <li>Recuperación de superficie</li>
+                            <li>Lijado y preparación</li>
+                            <li>Terminación brillante</li>
+                            <li>Lectura de materiales</li>
+                        </ul>
+
+                        <p>
+                            Aplicado en Color Lab.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <h3>PANTON CHAIR</h3>
+            <span>2026</span>
+
+        </article>
+
+        <!-- PROYECTO 3 -->
+
+        <article class="project-card">
+
+            <div class="project-flip">
+
+                <div class="project-front">
+                    <img src="images/Demain Jardin.jpeg" alt="Mesa de comedor">
+                </div>
+
+                <div class="project-back">
+
+                    <div class="project-back-content">
+
+                        <span class="project-number">
+                            PROYECTO 03
+                        </span>
+
+                        <h4>HABILIDADES</h4>
+
+                        <ul>
+                            <li>Intervención de color</li>
+                            <li>Reparación de superficie</li>
+                            <li>Acabado protector</li>
+                            <li>Terminaciones premium</li>
+                        </ul>
+
+                        <p>
+                            Aplicado en Rediseño Estético.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <h3>MESA RATONA</h3>
+            <span>2025</span>
+
+        </article>
+
+    </div>
+
+</section>
+
+  <!-- COLOR LAB -->
+<section class="color-lab" id="colorlab">
+
+    <div class="color-text">
+        <p class="eyebrow">Color Lab</p>
+        <h2>
+    El <span>color</span><br>
+    también restaura
+</h2>
+        <p>
+            Probá distintas combinaciones y descubrí cómo cambia la personalidad de una pieza.
+        </p>
+    </div>
+
+    <div class="furniture-preview">
+        <img
+            id="colorFurniture"
+            src="images/MUEBLE VERDE.png"
+            alt="Mueble">
+        <div class="color-buttons">
+
+            <button data-image="images/MUEBLE VERDE.png" style="background:#C8F52B"></button>
+
+            <button data-image="images/MUEBLE AZUL.png" style="background:#3047FF"></button>
+
+            <button data-image="images/MUEBLE VIOLETA.png" style="background:#9B9CFF"></button>
+
+            <button data-image="images/MUEBLE NARANJA.png" style="background:#FF5A1F"></button>
+
+            <button data-image="images/MUEBLE NEGRO.png" style="background:#111111"></button>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <!-- CURSOS -->
+<section class="courses" id="cursos">
+  <div class="section-title">
+    <div>
+      <p class="eyebrow">Nuestros cursos</p>
+      <h2>Elegí tu próxima<br>transformación</h2>
+    </div>
+  </div>
+
+  <div class="course-grid">
+
+    <!-- CURSO 1 -->
+    <article class="course-card">
+      <div class="course-flip">
+
+        <div class="course-front">
+          <img src="./images/INICIAL.jpg" alt="Curso inicial" class="course-img">
+          <p class="course-tag">Inicial</p>
+          <h3>Diagnóstico y preparación</h3>
+          <h4>$45.000</h4>
+        </div>
+
+        <div class="course-back">
+          <p class="course-tag">Inicial</p>
+          <h3>Diagnóstico y preparación</h3>
+
+          <ul class="course-list">
+            <li>1 clase presencial</li>
+            <li>Materiales incluidos</li>
+            <li>Sin experiencia previa</li>
+          </ul>
+
+          <p class="course-description">
+            Aprendé a leer una pieza, detectar problemas y preparar la superficie antes de intervenirla.
+          </p>
+
+          <a href="curso.html">Inscribirme</a>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- CURSO 2 -->
+    <article class="course-card featured">
+      <div class="course-flip">
+
+        <div class="course-front">
+          <img src="./images/Maselegido.jpg" alt="Curso restauración integral" class="course-img">
+          <p class="course-tag">Más elegido</p>
+          <h3>Restauración integral + color</h3>
+          <h4>$75.000</h4>
+        </div>
+
+        <div class="course-back">
+          <p class="course-tag">Más elegido</p>
+          <h3>Restauración integral + color</h3>
+
+          <ul class="course-list">
+            <li>4 clases presenciales</li>
+            <li>Seguimiento personalizado</li>
+            <li>Proyecto final propio</li>
+          </ul>
+
+          <p class="course-description">
+            El proceso completo para reparar, preparar, pintar y terminar una pieza con criterio visual.
+          </p>
+
+          <a href="curso.html">Inscribirme</a>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- CURSO 3 -->
+    <article class="course-card">
+      <div class="course-flip">
+
+        <div class="course-front">
+          <img src="./images/Avanzado.jpg" alt="Curso avanzado" class="course-img">
+          <p class="course-tag">Avanzado</p>
+          <h3>Rediseño estético</h3>
+          <h4>$95.000</h4>
+        </div>
+
+        <div class="course-back">
+          <p class="course-tag">Avanzado</p>
+          <h3>Rediseño estético</h3>
+
+          <ul class="course-list">
+            <li>3 clases presenciales</li>
+            <li>Color + composición</li>
+            <li>Terminaciones premium</li>
+            <li>Mirada de diseño</li>
+          </ul>
+
+          <p class="course-description">
+            Para transformar piezas desde una búsqueda más creativa, estética y contemporánea.
+          </p>
+
+          <a href="curso.html">Inscribirme</a>
+        </div>
+
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="testimonials" id="testimonios">
+
+  <p class="eyebrow">Qué dicen de nosotros</p>
+
+  <!-- DESKTOP -->
+  <div class="testimonial-desktop">
+
+    <div class="testimonial-quote">
+      <p id="testimonialText">“Aprendí que restaurar no era solamente lijar, sino diseñar.”</p>
+      <strong id="testimonialName">— Martina</strong>
+    </div>
+
+    <div class="testimonial-dots">
+      <button class="dot active" data-testimonial="0"></button>
+      <button class="dot" data-testimonial="1"></button>
+      <button class="dot" data-testimonial="2"></button>
+    </div>
+
+  </div>
+
+  <!-- MOBILE -->
+  <div class="testimonial-mobile">
+
+    <div class="testimonial-slider">
+      <div class="testimonial-track">
+
+        <article class="testimonial-card">
+          <p>“Aprendí que restaurar no era solamente<br>lijar, sino diseñar.”</p>
+          <strong>— Martina</strong>
+        </article>
+
+        <article class="testimonial-card">
+          <p>“Me fui con una pieza terminada y muchas<br>ganas de seguir creando.”</p>
+          <strong>— Camila</strong>
+        </article>
+
+        <article class="testimonial-card">
+          <p>“El color cambió por completo la forma<br>en que miro los muebles.”</p>
+          <strong>— Julieta</strong>
+        </article>
+
+      </div>
+    </div>
+
+    <p class="swipe-text">← Deslizá →</p>
+
+  </div>
+
+</section>
+ 
+  <!-- MUEBLES CÁPSULA -->
+<section class="capsule">
+
+  <div class="section-title">
+    <div>
+      <p class="eyebrow">PRÓXIMAMENTE</p>
+      <h2>MUEBLES CÁPSULA</h2>
+      <p>
+        Piezas únicas ensambladas 100% a partir de retazos de muebles irrecuperables.
+        Historia que se reinventa.
+      </p>
+    </div>
+  </div>
+
+  <div class="capsule-carousel">
+
+    <button class="capsule-arrow capsule-prev">←</button>
+
+    <div class="capsule-slider">
+      <div class="capsule-track">
+
+        <article class="capsule-item">
+          <img src="./images/CAPSULA 1.jpeg" alt="Mueble cápsula">
+          <div class="capsule-info">
+            <span>2026</span>
+            <h3>Biblioteca Modular</h3>
+            <p>Combinación de compartimentos abiertos con una paleta inspirada en el diseño escandinavo.</p>
+          </div>
+        </article>
+
+        <article class="capsule-item">
+          <img src="./images/CAPSULA 2.jpg" alt="Mueble cápsula">
+          <div class="capsule-info">
+            <span>2025</span>
+            <h3>Vitrina Retro</h3>
+            <p>Restauración de una pieza vintage con frentes renovados en tonos pastel.</p>
+          </div>
+        </article>
+
+        <article class="capsule-item">
+          <img src="./images/CAPSULA 4.jpeg" alt="Mueble cápsula">
+          <div class="capsule-info">
+            <span>2024</span>
+            <h3>Cajonera Vintage</h3>
+            <p>Intervención cromática sobre una cajonera clásica.</p>
+          </div>
+        </article>
+
+        <article class="capsule-item">
+          <img src="./images/CAPSULA 5.jpeg" alt="Mueble cápsula">
+          <div class="capsule-info">
+            <span>2023</span>
+            <h3>Cómoda Cromática</h3>
+            <p>Rediseño basado en bloques de color y madera natural.</p>
+          </div>
+        </article>
+
+        <article class="capsule-item">
+          <img src="./images/CAPSULA 6.jpeg" alt="Mueble cápsula">
+          <div class="capsule-info">
+            <span>2022</span>
+            <h3>Mesa de Noche Modular</h3>
+            <p>Juego de texturas inspirado en el diseño contemporáneo.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <button class="capsule-arrow capsule-next">→</button>
+
+  </div>
+
+</section>
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="contact-left">
+      <p class="eyebrow">Contacto</p>
+      <h2>¿Lista para transformar tu primer mueble?</h2>
+      <p>
+        Reservá tu lugar y empezá a darle nueva vida a tus piezas. Escribinos para conocer fechas, disponibilidad y próximos cursos.
+      </p>
+    </div>
+
+    <div class="contact-right">
+      <a href="mailto:hola@raiz.com" class="contact-mail">hola@raiz.com</a>
+      <a href="#">Instagram →</a>
+      <a href="#">WhatsApp →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-logo">
+    <h2>RAÍZ</h2>
+    <p>Restauración contemporánea de muebles.</p>
+  </div>
+
+  <div class="footer-links">
+    <a href="#">Instagram</a>
+    <a href="#">WhatsApp</a>
+    <a href="mailto:hola@raiz.com">Mail</a>
+  </div>
+
+  <div class="footer-copy">© 2026 RAÍZ</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
